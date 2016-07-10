@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: medialibrary-commons
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: apuravchauhan
+Implementation-Vendor-Id: com.apurav.medialibrary.commons
+Build-Jdk: 1.8.0_72
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

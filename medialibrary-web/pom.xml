@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.apurav.medialibrary</groupId>
+		<artifactId>medialibrary</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>com.apurav.medialibrary.web</groupId>
+	<artifactId>medialibrary-web</artifactId>
+	<packaging>war</packaging>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+		</dependency>
+		<!-- <dependency>
+			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session</artifactId>
+			<version>1.2.0.RELEASE</version>
+		</dependency> -->
+		<dependency>
+			<groupId>com.apurav.medialibrary.core</groupId>
+			<artifactId>medialibrary-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.apurav.medialibrary.security</groupId>
+			<artifactId>medialibrary-security</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+	</dependencies>
+	<build>
+		<finalName>ROOT</finalName>
+	</build>
+</project>
